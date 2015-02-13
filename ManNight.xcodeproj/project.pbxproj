@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ManNightAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ManNightAppDelegate.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28D7ACF80DDB3853001CB0EB /* ManNightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ManNightViewController.m */; };
+		B012B53B161851C600D098DE /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = B012B52C161851C600D098DE /* Defaults.plist */; };
+		B012B543161851C600D098DE /* notification.caf in Resources */ = {isa = PBXBuildFile; fileRef = B012B534161851C600D098DE /* notification.caf */; };
+		B012B54A161851FE00D098DE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B012B547161851FE00D098DE /* MainWindow.xib */; };
+		B012B54B161851FE00D098DE /* ManNight.xib in Resources */ = {isa = PBXBuildFile; fileRef = B012B548161851FE00D098DE /* ManNight.xib */; };
+		B012B5511618531300D098DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B012B54F1618531300D098DE /* main.m */; };
+		B019FB881A046D4B00638654 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B019FB871A046D4B00638654 /* Bolts.framework */; };
+		B019FB8A1A046D5500638654 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B019FB891A046D5500638654 /* Parse.framework */; };
+		B019FB8C1A046D9600638654 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B019FB8B1A046D9600638654 /* AudioToolbox.framework */; };
+		B019FB8E1A046DA000638654 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B019FB8D1A046DA000638654 /* CFNetwork.framework */; };
+		B019FB901A046DBE00638654 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B019FB8F1A046DBE00638654 /* CoreLocation.framework */; };
+		B019FB921A046DEB00638654 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B019FB911A046DEB00638654 /* libz.dylib */; };
+		B019FB941A046DF900638654 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B019FB931A046DF900638654 /* MobileCoreServices.framework */; };
+		B019FB981A046E1900638654 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B019FB951A046E1900638654 /* Security.framework */; };
+		B019FB991A046E1900638654 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B019FB961A046E1900638654 /* StoreKit.framework */; };
+		B019FB9A1A046E1900638654 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B019FB971A046E1900638654 /* SystemConfiguration.framework */; };
+		B03E78A512F8D5470085947B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03E78A412F8D5470085947B /* QuartzCore.framework */; };
+		B0A2CD6819606B7200BE366F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A2CD6719606B7200BE366F /* background.png */; };
+		B0E58B631A5896A40054086D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E58B621A5896A40054086D /* Images.xcassets */; };
+		C311A668182060850058D5E0 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C311A667182060850058D5E0 /* MainWindow-iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ManNightAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManNightAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ManNightAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManNightAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Man Night.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man Night.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28D7ACF60DDB3853001CB0EB /* ManNightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManNightViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* ManNightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManNightViewController.m; sourceTree = "<group>"; };
+		B012B52C161851C600D098DE /* Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Defaults.plist; path = Resources/Defaults.plist; sourceTree = "<group>"; };
+		B012B534161851C600D098DE /* notification.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = notification.caf; path = Resources/notification.caf; sourceTree = "<group>"; };
+		B012B547161851FE00D098DE /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = Interfaces/MainWindow.xib; sourceTree = "<group>"; };
+		B012B548161851FE00D098DE /* ManNight.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ManNight.xib; path = Interfaces/ManNight.xib; sourceTree = "<group>"; };
+		B012B54D1618525900D098DE /* ManNight-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ManNight-Info.plist"; sourceTree = "<group>"; };
+		B012B54F1618531300D098DE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B012B5501618531300D098DE /* ManNight_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManNight_Prefix.pch; sourceTree = "<group>"; };
+		B019FB871A046D4B00638654 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Frameworks/Bolts.framework; sourceTree = "<group>"; };
+		B019FB891A046D5500638654 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Frameworks/Parse.framework; sourceTree = "<group>"; };
+		B019FB8B1A046D9600638654 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B019FB8D1A046DA000638654 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B019FB8F1A046DBE00638654 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B019FB911A046DEB00638654 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B019FB931A046DF900638654 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B019FB951A046E1900638654 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B019FB961A046E1900638654 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B019FB971A046E1900638654 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B03E78A412F8D5470085947B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B0A2CD6719606B7200BE366F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Resources/background.png; sourceTree = "<group>"; };
+		B0E58B621A5896A40054086D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ManNight/Images.xcassets; sourceTree = "<group>"; };
+		B0F8D7121309F239009DE5FA /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		C311A667182060850058D5E0 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Interfaces/iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B019FB981A046E1900638654 /* Security.framework in Frameworks */,
+				B019FB991A046E1900638654 /* StoreKit.framework in Frameworks */,
+				B019FB9A1A046E1900638654 /* SystemConfiguration.framework in Frameworks */,
+				B019FB941A046DF900638654 /* MobileCoreServices.framework in Frameworks */,
+				B019FB921A046DEB00638654 /* libz.dylib in Frameworks */,
+				B019FB901A046DBE00638654 /* CoreLocation.framework in Frameworks */,
+				B019FB8E1A046DA000638654 /* CFNetwork.framework in Frameworks */,
+				B019FB8C1A046D9600638654 /* AudioToolbox.framework in Frameworks */,
+				B019FB881A046D4B00638654 /* Bolts.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				B019FB8A1A046D5500638654 /* Parse.framework in Frameworks */,
+				B03E78A512F8D5470085947B /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* ManNightAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ManNightAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* ManNightViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* ManNightViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Man Night.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B0F8D7121309F239009DE5FA /* Entitlements.plist */,
+				B012B54D1618525900D098DE /* ManNight-Info.plist */,
+				B012B546161851D000D098DE /* Interfaces */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				C311A6661820607B0058D5E0 /* iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B012B54F1618531300D098DE /* main.m */,
+				B012B5501618531300D098DE /* ManNight_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0E58B621A5896A40054086D /* Images.xcassets */,
+				B0A2CD6719606B7200BE366F /* background.png */,
+				B012B52C161851C600D098DE /* Defaults.plist */,
+				B012B534161851C600D098DE /* notification.caf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B019FB951A046E1900638654 /* Security.framework */,
+				B019FB961A046E1900638654 /* StoreKit.framework */,
+				B019FB971A046E1900638654 /* SystemConfiguration.framework */,
+				B019FB931A046DF900638654 /* MobileCoreServices.framework */,
+				B019FB911A046DEB00638654 /* libz.dylib */,
+				B019FB8F1A046DBE00638654 /* CoreLocation.framework */,
+				B019FB8D1A046DA000638654 /* CFNetwork.framework */,
+				B019FB8B1A046D9600638654 /* AudioToolbox.framework */,
+				B019FB891A046D5500638654 /* Parse.framework */,
+				B019FB871A046D4B00638654 /* Bolts.framework */,
+				B03E78A412F8D5470085947B /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B012B546161851D000D098DE /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				B012B547161851FE00D098DE /* MainWindow.xib */,
+				B012B548161851FE00D098DE /* ManNight.xib */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		C311A6661820607B0058D5E0 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				C311A667182060850058D5E0 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ManNight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ManNight" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManNight;
+			productName = ManNight3;
+			productReference = 1D6058910D05DD3D006BFB54 /* Man Night.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = F5YFHUPZJ2;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ManNight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ManNight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E58B631A5896A40054086D /* Images.xcassets in Resources */,
+				B012B53B161851C600D098DE /* Defaults.plist in Resources */,
+				B012B543161851C600D098DE /* notification.caf in Resources */,
+				B012B54A161851FE00D098DE /* MainWindow.xib in Resources */,
+				B012B54B161851FE00D098DE /* ManNight.xib in Resources */,
+				B0A2CD6819606B7200BE366F /* background.png in Resources */,
+				C311A668182060850058D5E0 /* MainWindow-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3623260D0F684500981E51 /* ManNightAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* ManNightViewController.m in Sources */,
+				B012B5511618531300D098DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ManNight_Prefix.pch;
+				INFOPLIST_FILE = "ManNight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "Man Night";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ManNight_Prefix.pch;
+				INFOPLIST_FILE = "ManNight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "Man Night";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ross Huelin";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "E24CC1EA-D526-492B-96BE-E17FC6CF9EBE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E24CC1EA-D526-492B-96BE-E17FC6CF9EBE";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ross Huelin";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ross Huelin";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "E24CC1EA-D526-492B-96BE-E17FC6CF9EBE";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ManNight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ManNight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
